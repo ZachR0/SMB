@@ -1,5 +1,5 @@
-#ifndef Elysium_base64_h
-#define Elysium_base64_h
+#ifndef SMB_base64_h
+#define SMB_base64_h
 
 #include <iostream>
 #include <zlib.h>
