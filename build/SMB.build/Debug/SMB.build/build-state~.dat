@@ -1,0 +1,253 @@
+TSMB
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Info.plist" SMB/SMB-Info.plist
+cProcessPCH++ /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-foilvihwycmtuabpphrfqnsrheys/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-bguufeqhmhklmnayoutekjnqcxzq/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/main.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/SDLMain.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/SDL
+c000000004ADD32BD0000000000156068
+t1256010429
+s1400936
+
+N/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/SDL_image
+c000000004AFFCE77000000000001A548
+t1258278519
+s107848
+
+N/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/SDL_mixer
+c000000004AFFCE190000000000115350
+t1258278425
+s1135440
+
+N/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/SDL_ttf
+c000000004ADC202E0000000000014F98
+t1255940142
+s85912
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E7AD7020000000000002470
+t1316673282
+s9328
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/AppDelegate.m
+c000000004EF2DFF50000000000000191
+t1324539893
+s401
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m
+c000000004EF2E03D0000000000002BBD
+t1324539965
+s11197
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SMB-Prefix.pch
+c000000004EF2DFF50000000000000089
+t1324539893
+s137
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/en.lproj/Credits.rtf
+c000000004EF2DFF500000000000001B4
+t1324539893
+s436
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/en.lproj/InfoPlist.strings
+c000000004EF2DFF5000000000000002D
+t1324539893
+s45
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/en.lproj/MainMenu.xib
+c000000004EF2DFF50000000000032DDC
+t1324539893
+s208348
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp
+c000000004EF2E07D0000000000000046
+t1324540029
+s70
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.m
+c000000004EF2DFF500000000000000FB
+t1324539893
+s251
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app
+t2
+s0
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Info.plist
+t2
+s0
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB
+t2
+s0
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/AppDelegate.o
+t2
+s0
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/SDLMain.o
+t2
+s0
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/SMB.LinkFileList
+c000000004EF2E07E00000000000000D1
+t1324540030
+s209
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-bguufeqhmhklmnayoutekjnqcxzq/SMB-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-foilvihwycmtuabpphrfqnsrheys/SMB-Prefix.pch.pth
+t2
+s0
+
+NSMB/SMB-Info.plist
+c000000004EF2DFF5000000000000044A
+t1324539893
+s1098
+
+CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m"
+r0
+
+CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp"
+r0
+
+CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies83a358fe17a3b441^e0be62fe17a3b441^---0#1#0#--18"Check dependencies36"273FF35F-0406-44B7-A3A7-37437F5422E8-
+
+CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/AppDelegate.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/SDLMain.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346232831.137414
+e346232831.214076
+r0
+xCompileC
+xbuild/SMB.build/Debug/SMB.build/Objects-normal/x86_64/SDLMain.o
+x/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m:8:10: fatal error: 'SDL.h' file not found [2]
+o #include "SDL.h"
+o          ^
+o1 error generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.ma34023ff17a3b441^0dc436ff17a3b441^-151"/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m:8:10: fatal error: 'SDL.h' file not found [2] #include "SDL.h"          ^1 error generated.1(21%IDEActivityLogMessage2@22"'SDL.h' file not found-346232831#0#102#-2#-23%DVTTextDocumentLocation3@73"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/SDLMain.m0000000000000000^7#9#7#9#18446744073709551615#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@73"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/SDLMain.m0000000000000000^2089"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/SDLMain.o SMB/SDLMain.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/x86_64" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-bguufeqhmhklmnayoutekjnqcxzq/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/SDLMain.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/SDLMain.o"36"1D0D2218-418D-4260-A9F2-4F7099F9D860-
+
+CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/main.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s346232830.550506
+e346232830.682707
+r1
+xCompileC
+xbuild/SMB.build/Debug/SMB.build/Objects-normal/x86_64/main.o
+x/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp:3:5: warning: no previous prototype for function 'SDL_main' [-Wmissing-prototypes,3]
+o int main(int argc, char *argv)
+o     ^
+o/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL_main.h:54:14: note: instantiated from:
+o #define main    SDL_main
+o                 ^
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp7e018dfe17a3b441^c1c5aefe17a3b441^-360"/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp:3:5: warning: no previous prototype for function 'SDL_main' [-Wmissing-prototypes,3] int main(int argc, char *argv)     ^/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL_main.h:54:14: note: instantiated from: #define main    SDL_main                 ^1 warning generated.1(21%IDEActivityLogMessage2@45"No previous prototype for function 'SDL_main'-346232830#0#140#1(2@101"Instantiated from: /Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL_main.h-346232830#179#115#-0#-23%DVTTextDocumentLocation3@98"file://localhost/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL_main.h0000000000000000^53#13#53#13#18446744073709551615#0#21"Clang LLVM 1.0 Notice--1#-3@72"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/main.cpp0000000000000000^2#4#2#4#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@72"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/main.cpp0000000000000000^1935"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/main.o SMB/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/x86_64" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-foilvihwycmtuabpphrfqnsrheys/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/main.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/main.o"36"8AA82FBF-5612-4894-81F9-15116B1A2681-
+
+CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/main.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileXIB "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/en.lproj/MainMenu.xib"
+r0
+
+CCopyStringsFile "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Resources/en.lproj/InfoPlist.strings" SMB/en.lproj/InfoPlist.strings
+r0
+
+CCpResource SMB/en.lproj/Credits.rtf build/Debug/SMB.app/Contents/Resources/en.lproj/Credits.rtf
+r0
+
+CLd "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB" normal x86_64
+r0
+
+CProcessInfoPlistFile "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Info.plist" SMB/SMB-Info.plist
+s346232830.394426
+e346232830.398453
+r1
+xProcessInfoPlistFile
+x/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Info.plist
+xSMB/SMB-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Process SMB/SMB-Info.plist653965fe17a3b441^b00466fe17a3b441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/SMB-Info.plist0000000000000000^397"ProcessInfoPlistFile build/Debug/SMB.app/Contents/Info.plist SMB/SMB-Info.plist    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    builtin-infoPlistUtility SMB/SMB-Info.plist -genpkginfo "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Info.plist"36"2434A154-BBFD-4413-95D6-C6D14386C56A-
+
+CProcessPCH /Users/zachr/Library/Developer/Xcode/DerivedData/SMB-cqyzoysrwalpxlbouluphddliqvg/Index/PrecompiledHeaders/SMB-Prefix-efquqtddemrcuihaodszihxtucyh_ast/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-bguufeqhmhklmnayoutekjnqcxzq/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s346232830.407101
+e346232831.129741
+r1
+xProcessPCH
+x/var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-bguufeqhmhklmnayoutekjnqcxzq/SMB-Prefix.pch.pth
+xSMB/SMB-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile SMB/SMB-Prefix.pch5c5768fe17a3b441^e73621ff17a3b441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/SMB-Prefix.pch0000000000000000^2127"ProcessPCH /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-bguufeqhmhklmnayoutekjnqcxzq/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/x86_64" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SMB-Prefix.pch" -o /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-bguufeqhmhklmnayoutekjnqcxzq/SMB-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-bguufeqhmhklmnayoutekjnqcxzq/SMB-Prefix.pch.d36"276AF240-F9E3-422A-AE76-04C565426711-
+
+CProcessPCH++ /Users/zachr/Library/Developer/Xcode/DerivedData/SMB-cqyzoysrwalpxlbouluphddliqvg/Index/PrecompiledHeaders/SMB-Prefix-abhyipkbbyivcyfnebhzcsythmen_ast/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-foilvihwycmtuabpphrfqnsrheys/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s346232830.407075
+e346232830.543092
+r1
+xProcessPCH++
+x/var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-foilvihwycmtuabpphrfqnsrheys/SMB-Prefix.pch.pth
+xSMB/SMB-Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile SMB/SMB-Prefix.pchd55a68fe17a3b441^d1078bfe17a3b441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/SMB-Prefix.pch0000000000000000^1986"ProcessPCH++ /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-foilvihwycmtuabpphrfqnsrheys/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/x86_64" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SMB-Prefix.pch" -o /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-foilvihwycmtuabpphrfqnsrheys/SMB-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-foilvihwycmtuabpphrfqnsrheys/SMB-Prefix.pch.d36"69C0AD12-3BD0-4A10-A117-E1A1A2EFF5D7-
+
+CTouch "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app"
+r0
+

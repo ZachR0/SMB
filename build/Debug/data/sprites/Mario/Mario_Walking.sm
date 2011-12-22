@@ -1,0 +1,10 @@
+#
+# Sprite Description Map - Mario_Walking
+#
+# Name;Offset X;Offset Y;Width;Height
+RIGHT;0;0;15;16
+RIGHT;15;0;15;16
+RIGHT;30;0;15;16
+LEFT;0;16;15;16
+LEFT;15;16;15;16
+LEFT;30;16;15;16
