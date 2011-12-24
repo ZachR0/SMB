@@ -22,6 +22,9 @@
 		833F30FE14A369250058D4E2 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833F30FD14A369250058D4E2 /* Player.cpp */; };
 		833F310214A36F690058D4E2 /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833F310114A36F690058D4E2 /* Collision.cpp */; };
 		833F310714A371C40058D4E2 /* Ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833F310614A371C40058D4E2 /* Ground.cpp */; };
+		8383E1BE14A42BE7001D5C30 /* CollisionOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8383E1BD14A42BE7001D5C30 /* CollisionOverlay.cpp */; };
+		8383E1C214A56E08001D5C30 /* TunnelEntrance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8383E1C114A56E08001D5C30 /* TunnelEntrance.cpp */; };
+		83BAE7C214A58A0000BC1BAF /* CameraOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BAE7C114A58A0000BC1BAF /* CameraOverlay.cpp */; };
 		83F757C314A3177500E9EB44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F757C214A3177500E9EB44 /* Cocoa.framework */; };
 		83F757CD14A3177500E9EB44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F757CB14A3177500E9EB44 /* InfoPlist.strings */; };
 		83F757E114A317B800E9EB44 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F757E014A317B800E9EB44 /* SDLMain.m */; };
@@ -64,6 +67,12 @@
 		833F310414A371310058D4E2 /* Ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ground.h; sourceTree = "<group>"; };
 		833F310514A371830058D4E2 /* Overlays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Overlays.h; sourceTree = "<group>"; };
 		833F310614A371C40058D4E2 /* Ground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ground.cpp; sourceTree = "<group>"; };
+		8383E1BC14A42BBC001D5C30 /* CollisionOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionOverlay.h; sourceTree = "<group>"; };
+		8383E1BD14A42BE7001D5C30 /* CollisionOverlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollisionOverlay.cpp; sourceTree = "<group>"; };
+		8383E1C014A56DB9001D5C30 /* TunnelEntrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunnelEntrance.h; sourceTree = "<group>"; };
+		8383E1C114A56E08001D5C30 /* TunnelEntrance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TunnelEntrance.cpp; sourceTree = "<group>"; };
+		83BAE7C014A588D400BC1BAF /* CameraOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlay.h; sourceTree = "<group>"; };
+		83BAE7C114A58A0000BC1BAF /* CameraOverlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CameraOverlay.cpp; sourceTree = "<group>"; };
 		83F757BE14A3177500E9EB44 /* SMB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F757C214A3177500E9EB44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		83F757C514A3177500E9EB44 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -206,6 +215,9 @@
 			isa = PBXGroup;
 			children = (
 				833F310514A371830058D4E2 /* Overlays.h */,
+				83BAE7BE14A588BF00BC1BAF /* Camera */,
+				8383E1BF14A56DA4001D5C30 /* Tunnel Entrance */,
+				8383E1BA14A42B92001D5C30 /* Collision */,
 				833F310814A376810058D4E2 /* Ground */,
 			);
 			name = "Level Overlays";
@@ -218,6 +230,33 @@
 				833F310414A371310058D4E2 /* Ground.h */,
 			);
 			name = Ground;
+			sourceTree = "<group>";
+		};
+		8383E1BA14A42B92001D5C30 /* Collision */ = {
+			isa = PBXGroup;
+			children = (
+				8383E1BC14A42BBC001D5C30 /* CollisionOverlay.h */,
+				8383E1BD14A42BE7001D5C30 /* CollisionOverlay.cpp */,
+			);
+			name = Collision;
+			sourceTree = "<group>";
+		};
+		8383E1BF14A56DA4001D5C30 /* Tunnel Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				8383E1C014A56DB9001D5C30 /* TunnelEntrance.h */,
+				8383E1C114A56E08001D5C30 /* TunnelEntrance.cpp */,
+			);
+			name = "Tunnel Entrance";
+			sourceTree = "<group>";
+		};
+		83BAE7BE14A588BF00BC1BAF /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				83BAE7C014A588D400BC1BAF /* CameraOverlay.h */,
+				83BAE7C114A58A0000BC1BAF /* CameraOverlay.cpp */,
+			);
+			name = Camera;
 			sourceTree = "<group>";
 		};
 		83F757B314A3177500E9EB44 = {
@@ -372,6 +411,9 @@
 				833F30FE14A369250058D4E2 /* Player.cpp in Sources */,
 				833F310214A36F690058D4E2 /* Collision.cpp in Sources */,
 				833F310714A371C40058D4E2 /* Ground.cpp in Sources */,
+				8383E1BE14A42BE7001D5C30 /* CollisionOverlay.cpp in Sources */,
+				8383E1C214A56E08001D5C30 /* TunnelEntrance.cpp in Sources */,
+				83BAE7C214A58A0000BC1BAF /* CameraOverlay.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

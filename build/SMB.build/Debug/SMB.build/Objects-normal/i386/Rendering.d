@@ -1,2 +1,2 @@
-dependencies: /Users/zachr/Desktop/SMB\ Project/Code/SMB/SMB/Rendering.cpp \
-  /Users/zachr/Desktop/SMB\ Project/Code/SMB/SMB/Rendering.h
+dependencies: /Users/ZachR/Desktop/SMB\ Project/Code/SMB/SMB/Rendering.cpp \
+  /Users/ZachR/Desktop/SMB\ Project/Code/SMB/SMB/Rendering.h

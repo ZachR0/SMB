@@ -45,6 +45,7 @@ namespace SMB
                     if(key == SDLK_LEFT) Camera::setX(Camera::getX() - 5);*/
                     
                     //Player Movement
+                    if(key == SDLK_UP) Game::MainPlayer.Jump();
                     if(key == SDLK_RIGHT) Game::MainPlayer.MoveRight();
                     if(key == SDLK_LEFT) Game::MainPlayer.MoveLeft();
                     

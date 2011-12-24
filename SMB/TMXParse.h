@@ -21,7 +21,12 @@ namespace SMB
                 SDL_Rect rect; //Location and size (For collision)
                 string name; //Name of object
                 string type; //Type of object
-                string value; //Data value of object (Normally a script file)
+                //string value; //Data value of object
+                
+                //Field and Field Value of Object data
+                vector<string> fieldData;
+                vector<string> valueData;
+                
                 int trigger_count; //Number of times triggered
                 
                 //Objecr Init

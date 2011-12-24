@@ -2,5 +2,8 @@
 #define SMB_Overlays_h
 
 #include "Ground.h"
+#include "CollisionOverlay.h"
+#include "TunnelEntrance.h"
+#include "CameraOverlay.h"
 
 #endif

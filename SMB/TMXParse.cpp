@@ -345,7 +345,14 @@ namespace SMB
                             //Pull object data
                             Objects[currentObj].name = object.attribute("name").value();
                             Objects[currentObj].type = object.attribute("type").value();
-                            Objects[currentObj].value = object.child("properties").child("property").attribute("value").value();
+                            //Objects[currentObj].value = object.child("properties").child("property").attribute("value").value();
+                            
+                            //Pull each object value field and value
+                            for (pugi::xml_node objprop = object.child("properties").child("property"); objprop; objprop = objprop.next_sibling("property"))
+                            {
+                                Objects[currentObj].fieldData.push_back(objprop.attribute("name").value());
+                                Objects[currentObj].valueData.push_back(objprop.attribute("value").value());
+                            }
                             
                             //Pull object location and size
                             Objects[currentObj].rect.x = atoi(object.attribute("x").value());
@@ -354,8 +361,11 @@ namespace SMB
                             Objects[currentObj].rect.h = atoi(object.attribute("height").value());
                             
                             //Debug output
-                            cout << "Object Layer: " << Objects[currentObj].name << " - " << "Type: " << Objects[currentObj].type << " - " << \
-                            "Value: " << Objects[currentObj].value << endl;
+                            cout << "Object Layer: " << Objects[currentObj].name << " - " << "Type: " << Objects[currentObj].type << " - " << endl;
+                            for(int i = 0; i < Objects[currentObj].fieldData.size(); i++)
+                            {
+                                cout  << "\tValue: " << Objects[currentObj].fieldData[i] << "(" << Objects[currentObj].valueData[i] << ")" << endl;
+                            }
                             cout << "\tRect X: " << Objects[currentObj].rect.x << endl << "\tRect Y:" <<  Objects[currentObj].rect.y << endl << \
                             "\tRect W: " << Objects[currentObj].rect.w << endl << "\tRect H:" << Objects[currentObj].rect.h << endl;
                             
@@ -420,6 +430,22 @@ namespace SMB
             //Called when Object is triggered
             void Object::Trigger()
             {
+                //Camera Overlay
+                if(type == "Camera")
+                {
+                    //Trigger
+                    Overlays::Camera::Trigger(this->rect);
+                    
+                    //Note: Continuous Trigger needed
+                    //To constantly update new camera settings
+                    
+                    //Update Trigger Count
+                    trigger_count++;
+                }
+                
+                /***************
+                //Overlays that need trigger checking
+                ***************/
                 //Only allow triggering once
                 if(trigger_count == 0)
                 {
@@ -428,15 +454,79 @@ namespace SMB
                     //Ground Overlay
                     if(type == "Ground")
                     {
-                        //Collision enabled?
-                        if(value == "true")
+                        //Check required data values
+                        for(int i = 0; i < this->fieldData.size(); i++)
                         {
-                            Overlays::Ground::Trigger();
-                            
-                            //Update Trigger Count
-                            trigger_count++;
+                            //Check for Collision
+                            if(this->fieldData[i] == "Collision")
+                            {
+                                //Check Collision value (Enabled?)
+                                if(this->valueData[i] == "true")
+                                {
+                                    //Trigger
+                                    Overlays::Ground::Trigger();
+                                    
+                                    //Update Trigger Count
+                                    trigger_count++;
+                                }
+                            }
                         }
                     }
+                    
+                    //Collision Overlay
+                    if(type == "Collision")
+                    {
+                        //Check required data values
+                        for(int i = 0; i < this->fieldData.size(); i++)
+                        {
+                            //Check for Collision
+                            if(this->fieldData[i] == "Collision")
+                            {
+                                //Check Collision value (Enabled?)
+                                if(this->valueData[i] == "true")
+                                {
+                                    //Trigger
+                                    Overlays::Collision::Trigger();
+                                    
+                                    //Update Trigger Count
+                                    trigger_count++;
+                                }
+                            }
+                        }
+                    }
+                    
+                    //Tunnel Entrance Overlay
+                    if(type == "TunnelEntrance")
+                    {
+                        //Activation Direction
+                        string activate_dir = "";
+                        
+                        //Port Object Name
+                        string port_obj = "";
+                        
+                        //Check required data values
+                        for(int i = 0; i < this->fieldData.size(); i++)
+                        {
+                            //Get Activation Direction
+                            if(this->fieldData[i] == "Activation_Direction")
+                            {
+                                activate_dir = this->valueData[i];
+                            }
+                            
+                            //Port Object Name
+                            if(this->fieldData[i] == "Port")
+                            {
+                                port_obj = this->valueData[i];
+                            }
+                        }
+                        
+                        //Handle Trigger
+                        Overlays::TunnelEntrance::Trigger(activate_dir, port_obj);
+                        
+                        //Update Trigger Count
+                        trigger_count++;
+                    }
+                    
                 }
             }
             
@@ -451,11 +541,53 @@ namespace SMB
                     //Ground Overlay
                     if(type == "Ground")
                     {
-                        //Collision enabled?
-                        if(value == "true")
+                        //Check required data values
+                        for(int i = 0; i < this->fieldData.size(); i++)
                         {
-                            Overlays::Ground::DeTrigger();
+                            //Check for Collision
+                            if(this->fieldData[i] == "Collision")
+                            {
+                                //Check Collision value (Enabled?)
+                                if(this->valueData[i] == "true")
+                                {
+                                    //DeTrigger
+                                    Overlays::Ground::DeTrigger();
+                                }
+                            }
                         }
+                    }
+                    
+                    //Collision Overlay
+                    if(type == "Collision")
+                    {
+                        //Check required data values
+                        for(int i = 0; i < this->fieldData.size(); i++)
+                        {
+                            //Check for Collision
+                            if(this->fieldData[i] == "Collision")
+                            {
+                                //Check Collision value (Enabled?)
+                                if(this->valueData[i] == "true")
+                                {
+                                    //DeTrigger
+                                    Overlays::Collision::Trigger();
+                                }
+                            }
+                        }
+                    }
+                    
+                    //Tunnel Entrance Overlay
+                    if(type == "TunnelEntrance")
+                    {
+                        //DeTrigger
+                        Overlays::TunnelEntrance::DeTrigger();
+                    }
+                    
+                    //Camera Overlay
+                    if(type == "Camera")
+                    {
+                        //DeTrigger
+                        Overlays::Camera::DeTrigger();
                     }
                     
                     //Reset trigger count

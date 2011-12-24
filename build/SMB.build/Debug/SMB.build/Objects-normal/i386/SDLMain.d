@@ -1,4 +1,4 @@
-dependencies: /Users/zachr/Desktop/SMB\ Project/Code/SMB/SMB/SDLMain.m \
+dependencies: /Users/ZachR/Desktop/SMB\ Project/Code/SMB/SMB/SDLMain.m \
   /Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h \
   /Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL_main.h \
   /Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h \
@@ -26,4 +26,4 @@ dependencies: /Users/zachr/Desktop/SMB\ Project/Code/SMB/SMB/SDLMain.m \
   /Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL_loadso.h \
   /Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL_timer.h \
   /Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL_version.h \
-  /Users/zachr/Desktop/SMB\ Project/Code/SMB/SMB/SDLMain.h
+  /Users/ZachR/Desktop/SMB\ Project/Code/SMB/SMB/SDLMain.h

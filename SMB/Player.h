@@ -4,6 +4,7 @@
 #include "Sprites.h"
 
 #include <SDL/SDL.h>
+#include <SDL/SDL_thread.h>
 
 namespace SMB
 {
@@ -15,6 +16,8 @@ namespace SMB
             Sprites::Sprite sprite; //Player Sprite
             int x, y; //Player x,y cords
             int speed; //Player move speed
+            SDL_Thread *SmoothJump; //For Smooth Jump animation
+            int jump_count; //Keeps track of player jumps -- Prevents infinite jumps
             
         public:
             //Bounding Box Collision Rect
@@ -23,6 +26,9 @@ namespace SMB
             //Gravity Enable / Disable
             bool Gravity_Enabled;
             
+            //Camera Default - Follow default SetCamera()?
+            bool Camera_Default;
+            
             //Initialization
             void Init(string SpriteSheet, string SpriteMap);
             
@@ -30,6 +36,9 @@ namespace SMB
             void MoveRight();
             void MoveLeft();
             void MoveStop();
+            
+            //Jump
+            void Jump();
             
             //Returns Movement Direction
             int GetMoveDirection();
@@ -61,6 +70,9 @@ namespace SMB
             //Gravity Management
             void Gravity();
         };
+        
+        //Jump movement -- Controls yCord (Allows for smooth jumping)
+        int jump_move(void *data);
     }
 }
 

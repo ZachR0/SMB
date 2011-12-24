@@ -17,6 +17,8 @@ namespace SMB
             this->y = 0;
             this->speed = 2;
             this->Gravity_Enabled = true;
+            this->jump_count = 0;
+            this->Camera_Default = true;
             
             //Disable Animation (Will reenable upon player movement)
             this->sprite.SetAnimate(false);
@@ -72,6 +74,30 @@ namespace SMB
             CollisionRect.y = this->y;
         }
         
+        //Jump
+        void Player::Jump()
+        {
+            //Only allow jumping once
+            if(this->jump_count < 1)
+            {
+                //Enable Gravity
+                Gravity_Enabled = true;
+                
+                //Move player up
+                //this->y -= 50;
+                
+                this->SmoothJump = SDL_CreateThread(jump_move, NULL);
+                
+                //Update jump count
+                this->jump_count++;
+                
+                /*
+                 Note: Jump count gets reset when player gravity is disabled
+                 Such as when Player is on the ground, etc
+                 */
+            }
+        }
+        
         //Returns Movement Direction
         int Player::GetMoveDirection()
         {
@@ -116,26 +142,29 @@ namespace SMB
         //Sets the Camera System to follow us
         void Player::SetCamera()
         {
-            //Camera over player
-            Camera::setX(this->x  - SDL_GetVideoSurface()->w / 2);
-            Camera::setY(this->y - (Game::Level.MAP_HEIGHT - SDL_GetVideoSurface()->h));
-            
-            //Keep Camera in bounds
-            if(Camera::getX() < 0)
+            if(this->Camera_Default)
             {
-                Camera::setX(0);
-            }
-            if(Camera::getY() < 0)
-            {
-                Camera::setY(0);
-            }
-            if(Camera::getX() > Game::Level.MAP_WIDTH - Camera::cameraRect.w)
-            {
-                Camera::setX(Game::Level.MAP_WIDTH - Camera::cameraRect.w);
-            }
-            if(Camera::getY() > Game::Level.MAP_HEIGHT - Camera::cameraRect.h)
-            {
-                Camera::setY(Game::Level.MAP_HEIGHT - Camera::cameraRect.h);
+                //Camera over player
+                Camera::setX(this->x  - SDL_GetVideoSurface()->w / 2);
+                Camera::setY(this->y - (Game::Level.MAP_HEIGHT - SDL_GetVideoSurface()->h));
+                
+                //Keep Camera in bounds
+                if(Camera::getX() < 0)
+                {
+                    Camera::setX(0);
+                }
+                if(Camera::getY() < 0)
+                {
+                    Camera::setY(0);
+                }
+                if(Camera::getX() > Game::Level.MAP_WIDTH - Camera::cameraRect.w)
+                {
+                    Camera::setX(Game::Level.MAP_WIDTH - Camera::cameraRect.w);
+                }
+                if(Camera::getY() > Game::Level.MAP_HEIGHT - Camera::cameraRect.h)
+                {
+                    Camera::setY(Game::Level.MAP_HEIGHT - Camera::cameraRect.h);
+                }
             }
         }
         
@@ -157,15 +186,34 @@ namespace SMB
         //Gravity Management
         void Player::Gravity()
         {
+            //Check if gravity is enabled
             if(Gravity_Enabled)
             {
                 //Make player fall
-                this->y += this->speed;
+                this->y += this->speed*2;
                 
                 //Update Collision Rect
                 CollisionRect.x = this->x;
                 CollisionRect.y = this->y;
             }
+            else
+            {
+                //Reset jump count
+                this->jump_count = 0;
+            }
+        }
+        
+        //Jump movement -- Controls yCord (Allows for smooth jumping)
+        int jump_move(void *data)
+        {
+            int currY = Game::MainPlayer.GetY();
+            for(int y = currY; y > currY-90; y--)
+            {
+                Game::MainPlayer.SetCords(Game::MainPlayer.GetX(), y);
+                SDL_Delay(10);
+            }
+            
+            return 0;
         }
     }
 }

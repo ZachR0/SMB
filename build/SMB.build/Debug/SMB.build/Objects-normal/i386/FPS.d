@@ -1,3 +1,3 @@
-dependencies: /Users/zachr/Desktop/SMB\ Project/Code/SMB/SMB/FPS.cpp \
-  /Users/zachr/Desktop/SMB\ Project/Code/SMB/SMB/FPS.h \
-  /Users/zachr/Desktop/SMB\ Project/Code/SMB/SMB/Timer.h
+dependencies: /Users/ZachR/Desktop/SMB\ Project/Code/SMB/SMB/FPS.cpp \
+  /Users/ZachR/Desktop/SMB\ Project/Code/SMB/SMB/FPS.h \
+  /Users/ZachR/Desktop/SMB\ Project/Code/SMB/SMB/Timer.h
