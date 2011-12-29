@@ -11,6 +11,9 @@ namespace SMB
         //Flag used to stop game loop
         extern bool QUIT;
         
+        //Console Debug Output
+        extern bool CONSOLE_DEBUG;
+        
         //Current Level
         extern Levels::TMX::TMXMap Level;
         

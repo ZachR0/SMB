@@ -443,6 +443,38 @@ namespace SMB
                     trigger_count++;
                 }
                 
+                //Ground Overlay
+                if(type == "Ground")
+                {
+                    //Check required data values
+                    for(int i = 0; i < this->fieldData.size(); i++)
+                    {
+                        //Check for Collision
+                        if(this->fieldData[i] == "Collision")
+                        {
+                            //Check Collision value (Enabled?)
+                            if(this->valueData[i] == "true")
+                            {
+                                //Trigger
+                                Overlays::Ground::Trigger();
+                                
+                                //Update Trigger Count
+                                trigger_count++;
+                            }
+                        }
+                    }
+                }
+                
+                //Platform Overlay
+                if(type == "Platform")
+                {
+                    //Trigger
+                    Overlays::Platform::Trigger();
+                    
+                    //Update Trigger Count
+                    trigger_count++;
+                }
+                
                 /***************
                 //Overlays that need trigger checking
                 ***************/
@@ -451,27 +483,6 @@ namespace SMB
                 {
                     //Check Object Type
                     
-                    //Ground Overlay
-                    if(type == "Ground")
-                    {
-                        //Check required data values
-                        for(int i = 0; i < this->fieldData.size(); i++)
-                        {
-                            //Check for Collision
-                            if(this->fieldData[i] == "Collision")
-                            {
-                                //Check Collision value (Enabled?)
-                                if(this->valueData[i] == "true")
-                                {
-                                    //Trigger
-                                    Overlays::Ground::Trigger();
-                                    
-                                    //Update Trigger Count
-                                    trigger_count++;
-                                }
-                            }
-                        }
-                    }
                     
                     //Collision Overlay
                     if(type == "Collision")
@@ -555,6 +566,13 @@ namespace SMB
                                 }
                             }
                         }
+                    }
+                    
+                    //Platform Overlay
+                    if(type == "Platform")
+                    {
+                        //DeTrigger
+                        Overlays::Platform::DeTrigger();
                     }
                     
                     //Collision Overlay

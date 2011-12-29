@@ -1,36 +1,38 @@
 TSMB
-v3
+v4
 r1
 cCheck dependencies
-cProcessInfoPlistFile "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Info.plist" SMB/SMB-Info.plist
-cProcessPCH /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-bahslrwqhzulrbfrenmomaeiqxev/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH++ /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/SDLMain.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/main.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Video.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Game.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Events.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Rendering.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Rendering.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/base64.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/base64.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/pugixml.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/pugixml/pugixml.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Camera.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Camera.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Sprites.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Sprites.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Timer.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Timer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/FPS.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/FPS.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Player.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB" normal i386
-cCopyStringsFile "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Resources/en.lproj/InfoPlist.strings" SMB/en.lproj/InfoPlist.strings
-cTouch "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app"
+cProcessInfoPlistFile "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Info.plist" SMB/SMB-Info.plist
+cProcessPCH++ /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-asaifsjbswgbkqcnrgmgibwfhate/SMB-Prefix.pch.pth SMB/SMB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Sprites.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Sprites.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/base64.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/base64.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Video.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Console.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Console.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Timer.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Timer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/SDLMain.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Game.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Events.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Rendering.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Rendering.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/pugixml.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/pugixml/pugixml.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/FPS.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/FPS.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Camera.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Camera.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Player.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Platform.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Platform.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB" normal i386
+cCopyStringsFile "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Resources/en.lproj/InfoPlist.strings" SMB/en.lproj/InfoPlist.strings
+cTouch "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app"
 
 N/Developer/SDKs/MacOSX10.7.sdk
-c000000004E1106D400000000000000EE
-t1309738708
+c000000004E7AD70B00000000000000EE
+t1316673291
 s238
 
 N/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
@@ -189,23 +191,23 @@ t1255940142
 s85912
 
 N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004E1106CE0000000000002470
-t1309738702
+c000000004E7AD7020000000000002470
+t1316673282
 s9328
 
 N/Developer/SDKs/MacOSX10.7.sdk/usr/lib/libz.dylib
-c000000004E1106D400000000000043C4
-t1309738708
+c000000004E7AD70B00000000000043C4
+t1316673291
 s17348
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Camera.cpp
-c000000004EF38D680000000000000374
-t1324584296
+c000000004EF31CE90000000000000374
+t1324555497
 s884
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Camera.h
-c000000004EF37FAE00000000000001E2
-t1324580782
+c000000004EF30F2E00000000000001E2
+t1324551982
 s482
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cpp
@@ -214,18 +216,18 @@ t1324702573
 s997
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.h
-c000000004EF5548200000000000001E1
-t1324700802
+c000000004EF57A8F00000000000001E1
+t1324710543
 s481
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp
-c000000004EF3AF760000000000000D01
-t1324593014
+c000000004EF33EF70000000000000D01
+t1324564215
 s3329
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Collision.h
-c000000004EF3A8580000000000000291
-t1324591192
+c000000004EF337D90000000000000291
+t1324562393
 s657
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp
@@ -234,83 +236,83 @@ t1324611659
 s1189
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.h
-c000000004EF3F47C0000000000000193
-t1324610684
+c000000004EF57A8F0000000000000193
+t1324710543
 s403
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Events.cpp
-c000000004EF4040A0000000000000896
-t1324614666
-s2198
+c000000004EFBEBD700000000000009C4
+t1325132759
+s2500
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Events.h
-c000000004EF55BDD0000000000000122
-t1324702685
-s290
+c000000004EF30A560000000000000106
+t1324550742
+s262
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/FPS.cpp
-c000000004EF3979C00000000000006ED
-t1324586908
+c000000004EF3271C00000000000006ED
+t1324558108
 s1773
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/FPS.h
-c000000004EF3978000000000000002DF
-t1324586880
+c000000004EF3270100000000000002DF
+t1324558081
 s735
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Game.cpp
-c000000004EF404090000000000000A06
-t1324614665
-s2566
+c000000004EFBDD730000000000000A1B
+t1325129075
+s2587
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Game.h
-c000000004EF3A2740000000000000245
-t1324589684
+c000000004EF331F50000000000000245
+t1324560885
 s581
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp
-c000000004EF3AFBA0000000000000289
-t1324593082
+c000000004EF33F3A0000000000000289
+t1324564282
 s649
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Ground.h
-c000000004EF3AFA4000000000000017C
-t1324593060
+c000000004EF33F25000000000000017C
+t1324564261
 s380
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Overlays.h
-c000000004EF5534F00000000000000A0
-t1324700495
-s160
+c000000004EF70DFC00000000000000B6
+t1324813820
+s182
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Player.cpp
-c000000004EF555DB00000000000018B9
-t1324701147
-s6329
+c000000004EF5A9AB00000000000018BA
+t1324722603
+s6330
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Player.h
-c000000004EF5523900000000000007C3
-t1324700217
-s1987
+c000000004EFBED720000000000000812
+t1325133170
+s2066
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Rendering.cpp
-c000000004EF37C6A00000000000011E7
-t1324579946
+c000000004EF30BEB00000000000011E7
+t1324551147
 s4583
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Rendering.h
-c000000004EF37C0E00000000000003C6
-t1324579854
+c000000004EF30B8E00000000000003C6
+t1324551054
 s966
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/SDLMain.h
-c000000004ADE05F20000000000000176
-t1256064498
+c000000004EF57A8F0000000000000176
+t1324710543
 s374
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m
-c000000004EF350BC0000000000002BBD
-t1324568764
+c000000004EF57A8F0000000000002BBD
+t1324710543
 s11197
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/SMB-Prefix.pch
@@ -319,33 +321,33 @@ t1324568692
 s137
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Sprites.cpp
-c000000004EF3A4100000000000003EEC
-t1324590096
+c000000004EF333910000000000003EEC
+t1324561297
 s16108
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Sprites.h
-c000000004EF396D40000000000000AAC
-t1324586708
+c000000004EF326550000000000000AAC
+t1324557909
 s2732
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cpp
-c000000004EF5576E0000000000006E35
-t1324701550
-s28213
+c000000004EF70E38000000000000708E
+t1324813880
+s28814
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TMXParse.h
-c000000004EF5380C0000000000000671
-t1324693516
+c000000004EF57A8F0000000000000671
+t1324710543
 s1649
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Timer.cpp
-c000000004EF3975C0000000000000668
-t1324586844
+c000000004EF326DD0000000000000668
+t1324558045
 s1640
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Timer.h
-c000000004EF3974A000000000000025B
-t1324586826
+c000000004EF326CA000000000000025B
+t1324558026
 s603
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp
@@ -354,28 +356,28 @@ t1324702164
 s4475
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.h
-c000000004EF54859000000000000039A
-t1324697689
+c000000004EF57A8F000000000000039A
+t1324710543
 s922
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Video.cpp
-c000000004EF3790800000000000004C0
-t1324579080
-s1216
+c000000004EFBE0BB0000000000000503
+t1325129915
+s1283
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Video.h
-c000000004EF378920000000000000151
-t1324578962
+c000000004EF308130000000000000151
+t1324550163
 s337
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/base64.cpp
-c000000004EF37DD800000000000023F0
-t1324580312
+c000000004EF57A8F00000000000023F0
+t1324710543
 s9200
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/base64.h
-c000000004EF3BAC4000000000000030E
-t1324595908
+c000000004EF57A8F000000000000030E
+t1324710543
 s782
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/en.lproj/InfoPlist.strings
@@ -384,23 +386,23 @@ t1324568692
 s45
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/main.cpp
-c000000004EF3B1C800000000000001EC
-t1324593608
+c000000004EF3414900000000000001EC
+t1324564809
 s492
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/pugixml/pugiconfig.hpp
-c000000004CCE999600000000000009E4
-t1288608150
+c000000004CCE291600000000000009E4
+t1288579350
 s2532
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/pugixml/pugixml.cpp
-c000000004CCE998E000000000003C980
-t1288608142
+c000000004CCE290E000000000003C980
+t1288579342
 s248192
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/pugixml/pugixml.hpp
-c000000004CCE999A000000000000A47B
-t1288608154
+c000000004CCE291A000000000000A47B
+t1288579354
 s42107
 
 N/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app
@@ -510,88 +512,128 @@ t1324539893
 s401
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Camera.cpp
-c000000004EF38D680000000000000374
-t1324584296
+c000000004EF31CE90000000000000374
+t1324555497
 s884
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Camera.h
-c000000004EF37FAE00000000000001E2
-t1324580782
+c000000004EF30F2E00000000000001E2
+t1324551982
 s482
 
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cpp
+c000000004EF57A8F00000000000003E5
+t1324710543
+s997
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.h
+c000000004EF57A8F00000000000001E1
+t1324710543
+s481
+
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp
-c000000004EF3AF760000000000000D01
-t1324593014
-s3329
+c000000004EFBF0E40000000000000F27
+t1325134052
+s3879
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Collision.h
-c000000004EF3A8580000000000000291
-t1324591192
+c000000004EF337D90000000000000291
+t1324562393
 s657
 
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp
+c000000004EF57A8F00000000000004A5
+t1324710543
+s1189
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.h
+c000000004EF57A8F0000000000000193
+t1324710543
+s403
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Console.cpp
+c000000004EFBEB5D00000000000019CE
+t1325132637
+s6606
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Console.h
+c000000004EFBE84800000000000003F1
+t1325131848
+s1009
+
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Events.cpp
-c000000004EF3A5D20000000000000856
-t1324590546
-s2134
+c000000004EFBEEEC00000000000009D9
+t1325133548
+s2521
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Events.h
-c000000004EF37AD60000000000000106
-t1324579542
+c000000004EF30A560000000000000106
+t1324550742
 s262
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/FPS.cpp
-c000000004EF3979C00000000000006ED
-t1324586908
+c000000004EF3271C00000000000006ED
+t1324558108
 s1773
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/FPS.h
-c000000004EF3978000000000000002DF
-t1324586880
+c000000004EF3270100000000000002DF
+t1324558081
 s735
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Game.cpp
-c000000004EF3AF300000000000000A06
-t1324592944
-s2566
+c000000004EFBEFE20000000000000E1D
+t1325133794
+s3613
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Game.h
-c000000004EF3A2740000000000000245
-t1324589684
-s581
+c000000004EFBEF370000000000000290
+t1325133623
+s656
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp
-c000000004EF3AFBA0000000000000289
-t1324593082
+c000000004EF33F3A0000000000000289
+t1324564282
 s649
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Ground.h
-c000000004EF3AFA4000000000000017C
-t1324593060
+c000000004EF33F25000000000000017C
+t1324564261
 s380
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Overlays.h
-c000000004EF3AA8C000000000000004B
-t1324591756
-s75
+c000000004EF70DFC00000000000000B6
+t1324813820
+s182
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Platform.cpp
+c000000004EF70E20000000000000028B
+t1324813856
+s651
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Platform.h
+c000000004EF70E1E0000000000000208
+t1324813854
+s520
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Player.cpp
-c000000004EF3AF6400000000000012EF
-t1324592996
-s4847
+c000000004EFBEE5400000000000018CE
+t1325133396
+s6350
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Player.h
-c000000004EF3A77A00000000000005FE
-t1324590970
-s1534
+c000000004EFBED720000000000000812
+t1325133170
+s2066
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Rendering.cpp
-c000000004EF37C6A00000000000011E7
-t1324579946
+c000000004EF30BEB00000000000011E7
+t1324551147
 s4583
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Rendering.h
-c000000004EF37C0E00000000000003C6
-t1324579854
+c000000004EF30B8E00000000000003C6
+t1324551054
 s966
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.h
@@ -600,8 +642,8 @@ t1256064498
 s374
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SDLMain.m
-c000000004EF350BC0000000000002BBD
-t1324568764
+c000000004EF57A8F0000000000002BBD
+t1324710543
 s11197
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/SMB-Prefix.pch
@@ -610,53 +652,63 @@ t1324539893
 s137
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Sprites.cpp
-c000000004EF3A4100000000000003EEC
-t1324590096
+c000000004EF333910000000000003EEC
+t1324561297
 s16108
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Sprites.h
-c000000004EF396D40000000000000AAC
-t1324586708
+c000000004EF326550000000000000AAC
+t1324557909
 s2732
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cpp
-c000000004EF3B1B40000000000005701
-t1324593588
-s22273
+c000000004EF711E70000000000007017
+t1324814823
+s28695
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TMXParse.h
-c000000004EF3A6DE00000000000005DB
-t1324590814
-s1499
+c000000004EF57A8F0000000000000671
+t1324710543
+s1649
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Timer.cpp
-c000000004EF3975C0000000000000668
-t1324586844
+c000000004EF326DD0000000000000668
+t1324558045
 s1640
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Timer.h
-c000000004EF3974A000000000000025B
-t1324586826
+c000000004EF326CA000000000000025B
+t1324558026
 s603
 
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp
+c000000004EF57A8F000000000000117B
+t1324710543
+s4475
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.h
+c000000004EF57A8F000000000000039A
+t1324710543
+s922
+
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Video.cpp
-c000000004EF3790800000000000004C0
-t1324579080
-s1216
+c000000004EFBE0BB0000000000000503
+t1325129915
+s1283
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Video.h
-c000000004EF378920000000000000151
-t1324578962
+c000000004EF308130000000000000151
+t1324550163
 s337
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/base64.cpp
-c000000004EF37DD800000000000023F0
-t1324580312
+c000000004EF57A8F00000000000023F0
+t1324710543
 s9200
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/base64.h
-c000000004EF3BAC4000000000000030E
-t1324595908
+c000000004EF57A8F000000000000030E
+t1324710543
 s782
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/en.lproj/Credits.rtf
@@ -675,8 +727,8 @@ t1324539893
 s208348
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp
-c000000004EF3B1C800000000000001EC
-t1324593608
+c000000004EF3414900000000000001EC
+t1324564809
 s492
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.m
@@ -685,22 +737,22 @@ t1324539893
 s251
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/pugixml/pugiconfig.hpp
-c000000004CCE999600000000000009E4
-t1288608150
+c000000004CCE291600000000000009E4
+t1288579350
 s2532
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/pugixml/pugixml.cpp
-c000000004CCE998E000000000003C980
-t1288608142
+c000000004CCE290E000000000003C980
+t1288579342
 s248192
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/pugixml/pugixml.hpp
-c000000004CCE999A000000000000A47B
-t1288608154
+c000000004CCE291A000000000000A47B
+t1288579354
 s42107
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app
-t1324564147
+t1325134006
 s102
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/Info.plist
@@ -708,8 +760,8 @@ t1324540030
 s1395
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB
-t1324564146
-s450104
+t1325134006
+s509252
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/PkgInfo
 t1324540030
@@ -728,73 +780,93 @@ t2
 s0
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Camera.o
-t1324555526
-s3680
+t1324710543
+s3628
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.o
+t1325133784
+s25708
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o
-t1324562799
-s27680
+t1325134006
+s54332
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o
+t1325133784
+s25748
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Console.o
+t1325132694
+s70932
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o
-t1324562287
-s33072
+t1325133784
+s33376
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/FPS.o
-t1324558109
-s5716
+t1324710543
+s5752
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o
-t1324564146
-s48128
+t1325133796
+s57768
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o
-t1324563160
+t1325133784
 s25164
 
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Platform.o
+t1325133784
+s25188
+
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o
-t1324564110
-s41072
+t1325133784
+s42400
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Rendering.o
-t1324551148
-s31028
+t1324710543
+s30936
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/SDLMain.o
-t1324540151
-s34656
+t1324710543
+s33984
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/SMB.LinkFileList
-c000000004EF33A740000000000000672
-t1324563060
-s1650
+c000000004EFBDA9B0000000000000891
+t1325128347
+s2193
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Sprites.o
-t1324561417
-s110556
+t1324710543
+s109372
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o
-t1324563333
-s119240
+t1325127384
+s153956
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Timer.o
-t1324558109
-s4504
+t1324710543
+s4856
+
+N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.o
+t1325133784
+s61052
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o
-t1324550623
-s2804
+t1325130222
+s2840
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/base64.o
-t1324551517
-s29396
+t1324710543
+s28848
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o
-t1324562287
+t1325133784
 s25364
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/pugixml.o
-t1324551518
-s603596
+t1324710543
+s632976
 
 N/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/x86_64/AppDelegate.o
 t2
@@ -838,8 +910,8 @@ t1324540030
 s77236
 
 NSMB/SMB-Info.plist
-c000000004EF35074000000000000044A
-t1324568692
+c000000004EF2DFF5000000000000044A
+t1324539893
 s1098
 
 CBuild AST from "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Camera.cpp"
@@ -905,7 +977,16 @@ r0
 CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Camera.cpp"
 r0
 
+CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cpp"
+r0
+
 CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp"
+r0
+
+CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp"
+r0
+
+CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Console.cpp"
 r0
 
 CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Events.cpp"
@@ -918,6 +999,9 @@ CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Game.cpp"
 r0
 
 CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp"
+r0
+
+CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Platform.cpp"
 r0
 
 CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Player.cpp"
@@ -938,6 +1022,9 @@ r0
 CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Timer.cpp"
 r0
 
+CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp"
+r0
+
 CBuild AST from "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Video.cpp"
 r0
 
@@ -955,7 +1042,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc8eb955e93a5b441^9da0995e93a5b441^---0#1#0#--18"Check dependencies
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesaa0cef6528acb441^d1ccef6528acb441^---0#1#0#--18"Check dependencies36"6C1DE78E-031F-4136-BEA7-C31AE64F4E01-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Camera.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Camera.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346303239.830131
@@ -996,6 +1083,19 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cppa20b565f93a5b441^34bcad5f93a5b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/CameraOverlay.cpp0000000000000000^2240"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.o SMB/CameraOverlay.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.o"
 
+CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s346826584.385159
+e346826584.640813
+r1
+xCompileC
+xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.o
+x/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cppcac3625827acb441^840ca45827acb441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/CameraOverlay.cpp0000000000000000^2280"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.o SMB/CameraOverlay.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CameraOverlay.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CameraOverlay.o"36"447621F8-0D6D-4C21-900D-5C58903E1A33-
+
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346393054.842564
 e346393055.145718
@@ -1010,8 +1110,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp4bccd7de89a5b441^af5a25df89a5b441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/Collision.cpp0000000000000000^2220"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o SMB/Collision.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o"
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s346257327.429585
-e346257328.737835
+s346826853.958929
+e346826854.197613
 r1
 xCompileC
 xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o
@@ -1020,7 +1120,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Collision.cppa4356eaf77a3b441^8fe2bcb077a3b441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Collision.cpp0000000000000000^2260"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o SMB/Collision.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o"36"6A9DCAB4-FDE5-4681-8C98-96FC606BC075-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Collision.cppfb96f56528acb441^a296326628acb441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Collision.cpp0000000000000000^2260"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o SMB/Collision.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Collision.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Collision.o"36"19CBEC4A-1048-4B74-9905-29BB8644315C-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346393055.147109
@@ -1034,6 +1134,32 @@ xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp0dc125df89a5b441^57b16cdf89a5b441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/CollisionOverlay.cpp0000000000000000^2255"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o SMB/CollisionOverlay.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o"
+
+CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s346826583.967431
+e346826584.419884
+r1
+xCompileC
+xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o
+x/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp36c9f75727acb441^52816b5827acb441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/CollisionOverlay.cpp0000000000000000^2295"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o SMB/CollisionOverlay.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/CollisionOverlay.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/CollisionOverlay.o"36"D096014F-3E62-4B5B-AE16-1822F50374F9-
+
+CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Console.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Console.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s346825493.748237
+e346825494.006897
+r1
+xCompileC
+xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/Console.o
+x/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Console.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Console.cpp0ea0bf1523acb441^8bc3011623acb441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Console.cpp0000000000000000^2250"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Console.o SMB/Console.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Console.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Console.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Console.o"36"FCD64E23-B11C-4AF3-897E-B2F42BD2F74A-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Events.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346395486.674156
@@ -1049,8 +1175,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Events.cpp7aa9ac5e93a5b441^e1d13e5f93a5b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/Events.cpp0000000000000000^2205"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o SMB/Events.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Events.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o"
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Events.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s346255086.656466
-e346255087.017159
+s346826583.965024
+e346826584.419695
 r1
 xCompileC
 xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o
@@ -1059,7 +1185,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Events.cpp1729a8ee6ea3b441^c13b09ef6ea3b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Events.cpp0000000000000000^2245"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o SMB/Events.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Events.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o"36"C84DB39B-D44C-4B39-9B5F-EFE8E90FEE1B-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Events.cppdd27f75727acb441^76716b5827acb441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Events.cpp0000000000000000^2245"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o SMB/Events.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Events.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Events.o"36"F90B8AA1-CAE2-4F96-AF56-C5DAB5AC2D44-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/FPS.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/FPS.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346303240.305043
@@ -1101,8 +1227,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Game.cpp0e65ac5e93a5b441^7653525f93a5b441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/Game.cpp0000000000000000^2195"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o SMB/Game.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Game.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o"
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Game.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s346256946.606816
-e346256946.887526
+s346826595.883360
+e346826596.127648
 r1
 xCompileC
 xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o
@@ -1111,7 +1237,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Game.cpp506e9b3276a3b441^d734e33276a3b441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Game.cpp0000000000000000^2235"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o SMB/Game.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Game.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o"36"8DFC63CB-DD9E-44AA-80B8-3A3AB9C63739-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Game.cpp6f49e26327acb441^36ad206427acb441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Game.cpp0000000000000000^2235"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o SMB/Game.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Game.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Game.o"36"66810C68-2773-47EC-9E17-00BD741E9D88-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346393054.913457
@@ -1127,8 +1253,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp0bf0e9de89a5b441^7cef3fdf89a5b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/Ground.cpp0000000000000000^2205"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o SMB/Ground.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o"
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s346257327.431889
-e346257328.725306
+s346826583.967440
+e346826584.383376
 r1
 xCompileC
 xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o
@@ -1137,7 +1263,20 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp4caa6eaf77a3b441^b8adb9b077a3b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Ground.cpp0000000000000000^2245"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o SMB/Ground.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o"36"FF407D19-F99F-40D3-A0CD-E71A4FAEA224-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp3bc8f75727acb441^342c625827acb441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Ground.cpp0000000000000000^2245"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o SMB/Ground.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Ground.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Ground.o"36"A1ACFA0B-ECAC-4D5C-91CD-AC7B209617A2-
+
+CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Platform.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Platform.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s346826584.396539
+e346826584.658910
+r1
+xCompileC
+xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/Platform.o
+x/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Platform.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Platform.cppd7a6655827acb441^43aea85827acb441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Platform.cpp0000000000000000^2255"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Platform.o SMB/Platform.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Platform.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Platform.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Platform.o"36"FAD5EBFA-8C51-491E-ABF7-EE337A8EF8B8-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Player.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346393963.624969
@@ -1153,8 +1292,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Player.cpp5517a06b8da5b441^cae0ec6b8da5b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/Player.cpp0000000000000000^2205"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o SMB/Player.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Player.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o"
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Player.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s346257327.430880
-e346257328.751877
+s346826583.967401
+e346826584.450621
 r1
 xCompileC
 xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o
@@ -1163,7 +1302,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Player.cppd95f6eaf77a3b441^4e7dc0b077a3b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Player.cpp0000000000000000^2245"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o SMB/Player.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Player.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o"36"18AC76A8-1C1B-4793-B78A-E8CFF807B0DC-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Player.cpp9cc5f75727acb441^a75a735827acb441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Player.cpp0000000000000000^2245"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o SMB/Player.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Player.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Player.o"36"1A6DED79-3CAB-4F37-BB83-6CBD450512CB-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Rendering.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Rendering.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346303239.132396
@@ -1257,8 +1396,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cppa5f93f5f93a5b441^5c05f15f93a5b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/TMXParse.cpp0000000000000000^2215"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o SMB/TMXParse.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o"
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s346257327.430828
-e346257328.801411
+s346820183.263216
+e346820184.076361
 r1
 xCompileC
 xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o
@@ -1267,7 +1406,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cppab5e6eaf77a3b441^1329cdb077a3b441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/TMXParse.cpp0000000000000000^2255"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o SMB/TMXParse.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o"36"3AA32E89-EBC1-4D03-AD94-2D578530F439-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cppa89043570eacb441^7a8b13580eacb441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/TMXParse.cpp0000000000000000^2255"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o SMB/TMXParse.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TMXParse.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TMXParse.o"36"4461FA24-8BC1-4E11-BEE6-EE42715D04EE-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Timer.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Timer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346303240.250863
@@ -1308,6 +1447,19 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp30d63b6991a5b441^78d50f6b91a5b441^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/TunnelEntrance.cpp0000000000000000^2245"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.o SMB/TunnelEntrance.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.o"
 
+CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s346826583.967777
+e346826584.454578
+r1
+xCompileC
+xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.o
+x/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cppa0dff75727acb441^ea5d745827acb441^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/TunnelEntrance.cpp0000000000000000^2285"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.o SMB/TunnelEntrance.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/TunnelEntrance.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/TunnelEntrance.o"36"1C250219-D539-41EC-B4BA-6B04687679EE-
+
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Video.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346303238.535675
 e346303238.585666
@@ -1322,8 +1474,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Video.cppa33a89062ba4b441^58ff97062ba4b441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/Video.cpp0000000000000000^2200"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o SMB/Video.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/Video.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o"
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Video.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s346243423.131062
-e346243423.469029
+s346823021.947848
+e346823022.021322
 r1
 xCompileC
 xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o
@@ -1332,7 +1484,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Video.cppcdea215f41a3b441^ce1a785f41a3b441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Video.cpp0000000000000000^2240"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o SMB/Video.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Video.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o"36"69547164-B1E4-4ED8-95D6-B7A17472114D-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Video.cppecbff26d19acb441^c574056e19acb441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/Video.cpp0000000000000000^2240"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o SMB/Video.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/Video.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/Video.o"36"E3C31CD0-5C75-4B47-815F-049411080DC4-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/base64.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/base64.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346303239.323805
@@ -1374,8 +1526,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/main.cppe7fd2fde89a5b441^7a378ade89a5b441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/ZachR/Desktop/SMB%20Project/Code/SMB/SMB/main.cpp0000000000000000^2195"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o SMB/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/j0/hzvvwp090d7b77hlp_l8s_f40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-gdupurssjoqiiwckdwlhqnzvsjoa/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.d" -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/main.cpp" -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o"
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s346255086.656274
-e346255087.016878
+s346826583.965011
+e346826584.394860
 r1
 xCompileC
 xbuild/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o
@@ -1384,7 +1536,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp1c24a8ee6ea3b441^483409ef6ea3b441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/main.cpp0000000000000000^2235"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o SMB/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o"36"23D2A89D-0BE4-476C-99CA-8C48BD7C7375-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp7827f75727acb441^f019655827acb441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/zachr/Desktop/SMB%20Project/Code/SMB/SMB/main.cpp0000000000000000^2235"CompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o SMB/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-generated-files.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-own-target-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-all-target-headers.hmap" -iquote "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/SMB-project-headers.hmap" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/include" -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_ttf.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Developer/SDKs/MacOSX10.7.sdk/Library/Frameworks/SDL_mixer.framework/Headers "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources/i386" "-I/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/DerivedSources" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -include /var/folders/qf/vxlcjmld7pnd29cpcssryr9c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMB-Prefix-crdqdloqqencjygcucmpqbminrsg/SMB-Prefix.pch -MMD -MT dependencies -MF "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.d" -c "/Users/zachr/Desktop/SMB Project/Code/SMB/SMB/main.cpp" -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/main.o"36"D0AE53F0-4B1B-4767-913A-6D83466E5566-
 
 CCompileC build/SMB.build/Debug/SMB.build/Objects-normal/i386/pugixml.o "/Users/ZachR/Desktop/SMB Project/Code/SMB/SMB/pugixml/pugixml.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s346303239.588050
@@ -1484,14 +1636,14 @@ xi386
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Link /Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMBea09f35f93a5b441^6ff5946093a5b441^---0#0#0#--677"Ld build/Debug/SMB.app/Contents/MacOS/SMB normal i386    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" "-F/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug" -filelist "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/SMB.LinkFileList" -mmacosx-version-min=10.7 -lz -framework SDL -framework SDL_image -framework SDL_mixer -framework SDL_ttf -framework Cocoa -o "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB"
 
 CLd "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB" normal i386
-s346257328.808345
-e346257332.064339
+s346826854.205150
+e346826854.254207
 r1
 xLd
 x/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB
 xnormal
 xi386
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Link /Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB3bffceb077a3b441^647810b477a3b441^---0#0#0#--677"Ld build/Debug/SMB.app/Contents/MacOS/SMB normal i386    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -filelist "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/SMB.LinkFileList" -mmacosx-version-min=10.7 -lz -framework SDL -framework SDL_image -framework SDL_mixer -framework SDL_ttf -framework Cocoa -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB"36"54F0ED3E-C5A2-4E58-99A0-E5BFCC5BA752-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Link /Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB0396346628acb441^d713416628acb441^---0#0#0#--677"Ld build/Debug/SMB.app/Contents/MacOS/SMB normal i386    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" "-F/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug" -filelist "/Users/zachr/Desktop/SMB Project/Code/SMB/build/SMB.build/Debug/SMB.build/Objects-normal/i386/SMB.LinkFileList" -mmacosx-version-min=10.7 -lz -framework SDL -framework SDL_image -framework SDL_mixer -framework SDL_ttf -framework Cocoa -o "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB"36"D57036C5-3AC4-44C9-BF7A-B216FBE641F5-
 
 CLd "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app/Contents/MacOS/SMB" normal x86_64
 r0
@@ -1613,10 +1765,10 @@ x/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Touch /Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app344c996093a5b441^637a9a6093a5b441^---0#0#0#--163"Touch build/Debug/SMB.app    cd "/Users/ZachR/Desktop/SMB Project/Code/SMB"    /usr/bin/touch -c "/Users/ZachR/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app"
 
 CTouch "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app"
-s346257332.082480
-e346257332.106190
+s346826854.270878
+e346826854.275237
 r1
 xTouch
 x/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Touch /Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app6b2815b477a3b441^e8301bb477a3b441^---0#0#0#--163"Touch build/Debug/SMB.app    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    /usr/bin/touch -c "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app"36"221D6A36-B725-4A42-AF7D-3D6E851ECBD5-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Touch /Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app9161456628acb441^3276466628acb441^---0#0#0#--163"Touch build/Debug/SMB.app    cd "/Users/zachr/Desktop/SMB Project/Code/SMB"    /usr/bin/touch -c "/Users/zachr/Desktop/SMB Project/Code/SMB/build/Debug/SMB.app"36"A4F4C6E1-845C-46B6-8098-FAAB072B2101-
 

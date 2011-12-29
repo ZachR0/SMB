@@ -1,6 +1,7 @@
 #include "Player.h"
 #include "Camera.h"
 #include "Game.h"
+#include "Console.h"
 
 namespace SMB
 {

@@ -42,6 +42,26 @@
     <property name="Collision" value="true"/>
    </properties>
   </object>
+  <object type="Ground" x="2116" y="210" width="54" height="7">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Ground" x="2274" y="210" width="54" height="7">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#00dacf" name="Platform Overlay" width="206" height="29">
+  <object type="Platform" x="2145" y="193" width="14" height="13"/>
+  <object type="Platform" x="2177" y="161" width="13" height="45"/>
+  <object type="Platform" x="2159" y="176" width="16" height="32"/>
+  <object type="Platform" x="2193" y="145" width="12" height="61"/>
+  <object type="Platform" x="2256" y="161" width="13" height="45"/>
+  <object type="Platform" x="2241" y="144" width="12" height="61"/>
+  <object type="Platform" x="2272" y="176" width="16" height="32"/>
+  <object type="Platform" x="2289" y="193" width="14" height="13"/>
  </objectgroup>
  <objectgroup color="#ff1200" name="Collision Overlay" width="206" height="29">
   <object type="Collision" x="912" y="152" width="31" height="56">
@@ -65,6 +85,56 @@
    </properties>
   </object>
   <object type="Collision" x="2601" y="259" width="13" height="169">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2149" y="199" width="3" height="9">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2178" y="167" width="3" height="12">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2195" y="151" width="3" height="12">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2200" y="152" width="7" height="56">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2163" y="186" width="3" height="12">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2239" y="149" width="7" height="56">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2247" y="151" width="3" height="12">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2264" y="165" width="3" height="12">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2283" y="183" width="3" height="12">
+   <properties>
+    <property name="Collision" value="true"/>
+   </properties>
+  </object>
+  <object type="Collision" x="2298" y="197" width="3" height="9">
    <properties>
     <property name="Collision" value="true"/>
    </properties>

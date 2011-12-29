@@ -42,6 +42,9 @@ namespace SMB
         {
             //Quit SDL
             SDL_Quit();
+            
+            //Quit Subsystems
+            TTF_Quit();
         }
     }
 }

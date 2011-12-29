@@ -22,9 +22,11 @@
 		833F30FE14A369250058D4E2 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833F30FD14A369250058D4E2 /* Player.cpp */; };
 		833F310214A36F690058D4E2 /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833F310114A36F690058D4E2 /* Collision.cpp */; };
 		833F310714A371C40058D4E2 /* Ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 833F310614A371C40058D4E2 /* Ground.cpp */; };
+		8361F6E714A744E700182239 /* Platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8361F6E614A744E700182239 /* Platform.cpp */; };
 		8383E1BE14A42BE7001D5C30 /* CollisionOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8383E1BD14A42BE7001D5C30 /* CollisionOverlay.cpp */; };
 		8383E1C214A56E08001D5C30 /* TunnelEntrance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8383E1C114A56E08001D5C30 /* TunnelEntrance.cpp */; };
 		83BAE7C214A58A0000BC1BAF /* CameraOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BAE7C114A58A0000BC1BAF /* CameraOverlay.cpp */; };
+		83F16C3714AC0F7800C975EE /* Console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83F16C3614AC0F7800C975EE /* Console.cpp */; };
 		83F757C314A3177500E9EB44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F757C214A3177500E9EB44 /* Cocoa.framework */; };
 		83F757CD14A3177500E9EB44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F757CB14A3177500E9EB44 /* InfoPlist.strings */; };
 		83F757E114A317B800E9EB44 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F757E014A317B800E9EB44 /* SDLMain.m */; };
@@ -67,12 +69,16 @@
 		833F310414A371310058D4E2 /* Ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ground.h; sourceTree = "<group>"; };
 		833F310514A371830058D4E2 /* Overlays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Overlays.h; sourceTree = "<group>"; };
 		833F310614A371C40058D4E2 /* Ground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ground.cpp; sourceTree = "<group>"; };
+		8361F6E514A744BD00182239 /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		8361F6E614A744E700182239 /* Platform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Platform.cpp; sourceTree = "<group>"; };
 		8383E1BC14A42BBC001D5C30 /* CollisionOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionOverlay.h; sourceTree = "<group>"; };
 		8383E1BD14A42BE7001D5C30 /* CollisionOverlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollisionOverlay.cpp; sourceTree = "<group>"; };
 		8383E1C014A56DB9001D5C30 /* TunnelEntrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunnelEntrance.h; sourceTree = "<group>"; };
 		8383E1C114A56E08001D5C30 /* TunnelEntrance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TunnelEntrance.cpp; sourceTree = "<group>"; };
 		83BAE7C014A588D400BC1BAF /* CameraOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlay.h; sourceTree = "<group>"; };
 		83BAE7C114A58A0000BC1BAF /* CameraOverlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CameraOverlay.cpp; sourceTree = "<group>"; };
+		83F16C3514AC0E0C00C975EE /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Console.h; sourceTree = "<group>"; };
+		83F16C3614AC0F7800C975EE /* Console.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Console.cpp; sourceTree = "<group>"; };
 		83F757BE14A3177500E9EB44 /* SMB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F757C214A3177500E9EB44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		83F757C514A3177500E9EB44 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -218,6 +224,7 @@
 				83BAE7BE14A588BF00BC1BAF /* Camera */,
 				8383E1BF14A56DA4001D5C30 /* Tunnel Entrance */,
 				8383E1BA14A42B92001D5C30 /* Collision */,
+				8361F6E314A744A200182239 /* Platform */,
 				833F310814A376810058D4E2 /* Ground */,
 			);
 			name = "Level Overlays";
@@ -230,6 +237,15 @@
 				833F310414A371310058D4E2 /* Ground.h */,
 			);
 			name = Ground;
+			sourceTree = "<group>";
+		};
+		8361F6E314A744A200182239 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				8361F6E514A744BD00182239 /* Platform.h */,
+				8361F6E614A744E700182239 /* Platform.cpp */,
+			);
+			name = Platform;
 			sourceTree = "<group>";
 		};
 		8383E1BA14A42B92001D5C30 /* Collision */ = {
@@ -257,6 +273,15 @@
 				83BAE7C114A58A0000BC1BAF /* CameraOverlay.cpp */,
 			);
 			name = Camera;
+			sourceTree = "<group>";
+		};
+		83F16C3314AC0DFE00C975EE /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				83F16C3514AC0E0C00C975EE /* Console.h */,
+				83F16C3614AC0F7800C975EE /* Console.cpp */,
+			);
+			name = Console;
 			sourceTree = "<group>";
 		};
 		83F757B314A3177500E9EB44 = {
@@ -304,6 +329,7 @@
 		83F757C814A3177500E9EB44 /* SMB */ = {
 			isa = PBXGroup;
 			children = (
+				83F16C3314AC0DFE00C975EE /* Console */,
 				833F30FF14A36F1C0058D4E2 /* Collision */,
 				833F30FB14A368CB0058D4E2 /* Player */,
 				833F30F014A35D970058D4E2 /* Sprites */,
@@ -414,6 +440,8 @@
 				8383E1BE14A42BE7001D5C30 /* CollisionOverlay.cpp in Sources */,
 				8383E1C214A56E08001D5C30 /* TunnelEntrance.cpp in Sources */,
 				83BAE7C214A58A0000BC1BAF /* CameraOverlay.cpp in Sources */,
+				8361F6E714A744E700182239 /* Platform.cpp in Sources */,
+				83F16C3714AC0F7800C975EE /* Console.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

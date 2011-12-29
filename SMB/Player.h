@@ -5,6 +5,11 @@
 
 #include <SDL/SDL.h>
 #include <SDL/SDL_thread.h>
+#include <iostream>
+#include <sstream>
+#include <string>
+
+using namespace std;
 
 namespace SMB
 {

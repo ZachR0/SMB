@@ -1,6 +1,7 @@
 #include "Events.h"
 #include "Game.h"
 #include "Camera.h"
+#include "Console.h"
 
 namespace SMB
 {
@@ -36,6 +37,13 @@ namespace SMB
                     {
                         //Quit Game
                         Game::Quit();
+                    }
+                    
+                    //Console Active/DeActivate
+                    if(key == SDLK_BACKQUOTE)
+                    {
+                        if(!Console::Active) Console::Active = true;
+                        else if(Console::Active) Console::Active = false;
                     }
                     
                     /*//Camera Movement Testing
