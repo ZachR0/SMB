@@ -23,6 +23,10 @@ namespace SMB
         //Number of lines that contain data
         extern int Current_Line;
         
+        //Console Input Text
+        extern string Console_Input_Text;
+        
+        
         //Console Text Font
         extern TTF_Font *Font;
         

@@ -42,8 +42,21 @@ namespace SMB
                     //Console Active/DeActivate
                     if(key == SDLK_BACKQUOTE)
                     {
-                        if(!Console::Active) Console::Active = true;
-                        else if(Console::Active) Console::Active = false;
+                        if(!Console::Active)
+                        {
+                            //Disable Keyboard Input Repeat
+                            SDL_EnableKeyRepeat(0, 0);
+                            
+                            Console::Active = true;
+                        }
+                        
+                        else if(Console::Active)
+                        {
+                            //Enable Keyboard Input Repeat
+                            SDL_EnableKeyRepeat(1, 1);
+                            
+                            Console::Active = false;
+                        }
                     }
                     
                     /*//Camera Movement Testing

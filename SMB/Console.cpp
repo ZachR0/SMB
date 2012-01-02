@@ -1,5 +1,6 @@
 #include "Console.h"
 #include "Rendering.h"
+#include "Events.h"
 
 namespace SMB
 {
@@ -10,6 +11,9 @@ namespace SMB
         
         //Console Text (Each element is a line of text)
         vector<string>Console_Text(1);
+        
+        //Console Input Text
+        string Console_Input_Text = "";
         
         //Console Text Font
         TTF_Font *Font = NULL;
@@ -22,7 +26,16 @@ namespace SMB
         const int HEIGHT = 100;
         
         //Max Console Lines
-        const int MAX_LINES = 8;
+        const int MAX_LINES = 7;
+        
+        //Max Line Characters
+        const int MAX_CHARS = 62;
+        
+        //Max Input Characters
+        const int MAX_INPUT_CHARS = 60;
+        
+        //Console Input Line
+        const int INPUT_LINE = 7;
         
         //Initializes Console
         void Init()
@@ -65,7 +78,47 @@ namespace SMB
             //Only if Console is Active
             if(Active)
             {
+                //Update event state(s)
+                SDL_PumpEvents();
                 
+                
+                //Update Object Focus before we call Event function
+                if(Events::Event.type == SDL_KEYDOWN)
+                {
+                    //Key pressed
+                    SDLKey key = Events::Event.key.keysym.sym;
+                    
+                    //Only evaluate certain keys (Letters, numbers, some symbols)
+                    if(key == SDLK_a || key == SDLK_b || key == SDLK_c || key == SDLK_d || key == SDLK_e || key == SDLK_f\
+                       || key == SDLK_g || key == SDLK_h || key == SDLK_i || key == SDLK_j || key == SDLK_k || key == SDLK_l\
+                       || key == SDLK_m || key == SDLK_n || key == SDLK_o || key == SDLK_p || key == SDLK_q || key == SDLK_r\
+                       || key == SDLK_s || key == SDLK_t || key == SDLK_u || key == SDLK_v || key == SDLK_w || key == SDLK_x\
+                       || key == SDLK_y || key == SDLK_z || key == SDLK_0 || key == SDLK_1 || key == SDLK_2 || key == SDLK_3\
+                       || key == SDLK_4 || key == SDLK_5 || key == SDLK_6 || key == SDLK_7 || key == SDLK_8 || key == SDLK_9\
+                       || key == SDLK_PERIOD || key == SDLK_SPACE)
+                    {
+                        Console_Input_Text += key;
+                    }
+                    
+                    //Backspace
+                    if(key == SDLK_BACKSPACE)
+                    {
+                        Console_Input_Text = Console_Input_Text.substr(0, Console_Input_Text.length() - 1);
+                    }
+                    
+                    //Enter - Handle Input
+                    if(key == SDLK_RETURN)
+                    {
+                        //Get copy of input
+                        string input = Console_Input_Text;
+                        
+                        //Reset Console Input
+                        Console_Input_Text = "";
+                        
+                        //Evaluate Input
+                        cout << input << endl;
+                    }
+                }
             }
         }
         
@@ -121,6 +174,20 @@ namespace SMB
                     data = NULL;
                 }
                 
+                //Render Console Input
+                SDL_Surface *data = NULL;
+                string input_data = "> ";
+                input_data += Console_Input_Text;
+                data = Render::GenerateText(input_data, textColor, Font);
+                
+                //Render to Console
+                Render::SurfaceRender(data, Console_Surface, 0, (INPUT_LINE*TTF_FontHeight(Font)));
+                
+                //GC
+                SDL_FreeSurface(data);
+                data = NULL;
+                
+                
                 //Render Console to Screen
                 Render::SurfaceRender(Console_Surface, SDL_GetVideoSurface(), 0, 0);
             }
@@ -145,7 +212,7 @@ namespace SMB
                 string ch = text.substr(i, 1);
                 
                 //Keep line limit in mind
-                if(current_col <= 62)
+                if(current_col <= MAX_CHARS)
                 {
                     //Add Character to the current line
                     Console_Text[current_line-1] += ch;

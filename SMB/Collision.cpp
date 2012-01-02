@@ -53,15 +53,6 @@ namespace SMB
                     //Does the player collide with Object layer?
                     if(BoundingCheck(Game::MainPlayer.CollisionRect, Game::Level.Objects[i].rect))
                     {
-                        //Console Debugging
-                        if(Game::CONSOLE_DEBUG)
-                        {
-                            stringstream output;
-                            output << "[COLLISION]: " << Game::Level.Objects[i].type << " @ (";
-                            output << Game::Level.Objects[i].rect.x << "," << Game::Level.Objects[i].rect.y << ")";
-                            Console::Write(output.str());
-                        }
-                        
                         //Call Object's Trigger Function
                         Game::Level.Objects[i].Trigger();
                     }
